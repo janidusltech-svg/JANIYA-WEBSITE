@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | LK JANIYA TT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neon-green': '#39ff14',
+                        'neon-cyan': '#00ffff',
+                        'dark-bg': '#0a0a0a',
+                        'card-bg': '#1a1a1a',
+                        'accent-orange': '#ff5e00'
+                    },
+                    fontFamily: {
+                        'orbitron': ['Orbitron', 'sans-serif'],
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Orbitron:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-dark-bg text-white font-inter">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-opacity-90 bg-dark-bg backdrop-blur border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html"
+                    class="font-orbitron text-2xl font-bold text-neon-green tracking-widest hover:text-white transition-colors">
+                    LK <span class="text-white">JANIYA</span> TT
+                </a>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html"
+                            class="text-gray-300 hover:text-neon-green px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Home</a>
+                        <a href="videos.html"
+                            class="text-gray-300 hover:text-neon-green px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Videos</a>
+                        <a href="about.html"
+                            class="text-white hover:text-neon-green px-3 py-2 rounded-md text-sm font-medium transition-all duration-300 border-b-2 border-neon-green">About</a>
+                        <a href="contact.html"
+                            class="text-gray-300 hover:text-neon-green px-3 py-2 rounded-md text-sm font-medium transition-all duration-300">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-32 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Profile Section -->
+        <div class="flex flex-col md:flex-row items-center gap-12 mb-20">
+            <div class="w-full md:w-1/3">
+                <div class="relative group">
+                    <div
+                        class="absolute -inset-1 bg-gradient-to-r from-neon-green to-neon-cyan rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="Janiya Profile"
+                        class="relative rounded-full w-full border-4 border-black object-cover aspect-square shadow-2xl">
+                </div>
+            </div>
+            <div class="w-full md:w-2/3">
+                <h1 class="text-4xl md:text-6xl font-orbitron font-bold mb-6 text-white">WHO IS <span
+                        class="text-neon-green">LK JANIYA?</span></h1>
+                <p class="text-gray-300 text-lg leading-relaxed mb-6">
+                    I am a content creator based in Sri Lanka, dedicated to bringing you the most explosive <strong>Call
+                        of Duty Mobile</strong> gameplay. From sniper montages to high-IQ battle royale plays, my goal
+                    is to entertain and inspire the gaming community.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <span
+                        class="px-4 py-2 bg-gray-800 rounded text-neon-cyan font-bold border border-gray-700">#CODMobile</span>
+                    <span
+                        class="px-4 py-2 bg-gray-800 rounded text-neon-cyan font-bold border border-gray-700">#Sniper</span>
+                    <span
+                        class="px-4 py-2 bg-gray-800 rounded text-neon-cyan font-bold border border-gray-700">#Gamer</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
+            <div
+                class="bg-card-bg p-8 rounded-xl border border-gray-800 text-center hover:border-neon-green transition-colors duration-300">
+                <i class="fab fa-tiktok text-4xl text-white mb-4"></i>
+                <h3 class="text-3xl font-bold font-orbitron text-neon-green">50K+</h3>
+                <p class="text-gray-400 text-sm mt-2">Followers</p>
+            </div>
+            <div
+                class="bg-card-bg p-8 rounded-xl border border-gray-800 text-center hover:border-neon-green transition-colors duration-300">
+                <i class="fas fa-heart text-4xl text-white mb-4"></i>
+                <h3 class="text-3xl font-bold font-orbitron text-accent-orange">1M+</h3>
+                <p class="text-gray-400 text-sm mt-2">Total Likes</p>
+            </div>
+            <div
+                class="bg-card-bg p-8 rounded-xl border border-gray-800 text-center hover:border-neon-green transition-colors duration-300">
+                <i class="fas fa-crosshairs text-4xl text-white mb-4"></i>
+                <h3 class="text-3xl font-bold font-orbitron text-neon-cyan">4.5</h3>
+                <p class="text-gray-400 text-sm mt-2">K/D Ratio</p>
+            </div>
+            <div
+                class="bg-card-bg p-8 rounded-xl border border-gray-800 text-center hover:border-neon-green transition-colors duration-300">
+                <i class="fas fa-trophy text-4xl text-white mb-4"></i>
+                <h3 class="text-3xl font-bold font-orbitron text-yellow-400">Legendary</h3>
+                <p class="text-gray-400 text-sm mt-2">Rank</p>
+            </div>
+        </div>
+
+        <!-- Gear Section -->
+        <h2 class="text-3xl font-orbitron font-bold mb-8 text-center">MY <span class="text-neon-green">GEAR</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-900 p-6 rounded-lg border-l-4 border-neon-green">
+                <h3 class="text-xl font-bold mb-2">Device</h3>
+                <p class="text-gray-400">iPhone 13 Pro Max</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-lg border-l-4 border-neon-cyan">
+                <h3 class="text-xl font-bold mb-2">Editor</h3>
+                <p class="text-gray-400">CapCut / LumaFusion</p>
+            </div>
+            <div class="bg-gray-900 p-6 rounded-lg border-l-4 border-accent-orange">
+                <h3 class="text-xl font-bold mb-2">Settings</h3>
+                <p class="text-gray-400">4-Finger Claw, Gyro Always On</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bg-black py-10 border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-gray-500">LK JANIYA TT &copy; 2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>
